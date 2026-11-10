@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8dce7">
+  <title>Meu Lugar Favorito ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="floating-hearts" id="hearts" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#" onclick="showScreen('home'); return false;">meu lugar favorito <span>♡</span></a>
+    <nav class="nav">
+      <button onclick="showScreen('memories')">Memórias</button>
+      <button onclick="showScreen('letter')">Cartinha</button>
+      <button onclick="showScreen('coupons')">Cupons</button>
+      <button onclick="showScreen('our-time')">Nosso tempo</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="screen active" id="home">
+      <div class="hero-card">
+        <span class="eyebrow">feito com carinho, para você</span>
+        <div class="hero-heart">♡</div>
+        <h1>Você é meu<br><em>lugar favorito.</em></h1>
+        <p>Guardei aqui alguns pedacinhos da nossa história.<br>Espero que cada clique te faça sorrir. 💗</p>
+        <button class="primary-btn" onclick="showScreen('memories')">Entrar no nosso cantinho <span>→</span></button>
+        <div class="hero-note">um site todinho nosso</div>
+      </div>
+      <div class="home-photo">
+        <img src="assets/fotos/foto-inicio.jpeg" alt="Foto especial do casal">
+        <span>nós, do nosso jeitinho ♡</span>
+      </div>
+    </section>
+
+    <section class="screen page" id="memories">
+      <div class="section-heading">
+        <span class="eyebrow">pequenos instantes, grandes lembranças</span>
+        <h2>Nossa coleção de <em>momentos</em></h2>
+        <p>Tem coisa que merece ser guardada com carinho.</p>
+      </div>
+      <div class="gallery">
+        <figure class="photo-card"><img src="assets/fotos/foto-01.jpeg" alt="Lembrança especial 1" loading="lazy"><figcaption>Um dia para guardar ♡</figcaption></figure>
+        <figure class="photo-card"><img src="assets/fotos/foto-03.jpeg" alt="Lembrança especial 3" loading="lazy"><figcaption>Bem pertinho de você</figcaption></figure>
+        <figure class="photo-card"><img src="assets/fotos/foto-04.jpeg" alt="Lembrança especial 4" loading="lazy"><figcaption>Meu carinho em forma de foto</figcaption></figure>
+        <figure class="photo-card"><img src="assets/fotos/foto-05.jpeg" alt="Lembrança especial 5" loading="lazy"><figcaption>Mais uma memória nossa</figcaption></figure>
+        <figure class="photo-card"><img src="assets/fotos/foto-06.jpeg" alt="Lembrança especial 6" loading="lazy"><figcaption>Sempre nós dois ♡</figcaption></figure>
+        <figure class="photo-card"><img src="assets/fotos/foto-07.jpeg" alt="Lembrança especial 7" loading="lazy"><figcaption>Torcendo juntos 💛💚</figcaption></figure>
+        <figure class="photo-card"><img src="assets/fotos/foto-08.jpeg" alt="Lembrança especial 8" loading="lazy"><figcaption>Olhos nos olhos ♡</figcaption></figure>
+        <figure class="photo-card"><img src="assets/fotos/foto-09.jpeg" alt="Lembrança especial 9" loading="lazy"><figcaption>Flores e carinho 🌷</figcaption></figure>
+        <figure class="photo-card"><img src="assets/fotos/foto-11.jpeg" alt="Lembrança especial 11" loading="lazy"><figcaption>Beijinho no rosto ♡</figcaption></figure>
+        <figure class="photo-card"><img src="assets/fotos/foto-12.jpeg" alt="Lembrança especial 12" loading="lazy"><figcaption>Minha careta favorita 😛</figcaption></figure>
+        <figure class="photo-card"><img src="assets/fotos/foto-13.jpeg" alt="Lembrança especial 13" loading="lazy"><figcaption>Hora da leitura 📖</figcaption></figure>
+      </div>
+
+      <div class="section-heading video-heading">
+        <span class="eyebrow">também guardamos em movimento</span>
+        <h2>Nossos <em>vídeos</em></h2>
+      </div>
+      <div class="video-grid">
+        <video controls playsinline preload="none" poster="assets/videos/poster-01.jpg"><source src="assets/videos/video-01.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video>
+        <video controls playsinline preload="none" poster="assets/videos/poster-02.jpg"><source src="assets/videos/video-02.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video>
+        <video controls playsinline preload="none" poster="assets/videos/poster-03.jpg"><source src="assets/videos/video-03.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video>
+        <video controls playsinline preload="none" poster="assets/videos/poster-04.jpg"><source src="assets/videos/video-04.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video>
+        <video controls playsinline preload="none" poster="assets/videos/poster-05.jpg"><source src="assets/videos/video-05.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video>
+        <video controls playsinline preload="none" poster="assets/videos/poster-06.jpg"><source src="assets/videos/video-06.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video>
+        <video controls playsinline preload="none" poster="assets/videos/poster-07.jpg"><source src="assets/videos/video-07.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video>
+        <video controls playsinline preload="none" poster="assets/videos/poster-08.jpg"><source src="assets/videos/video-08.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video>
+        <video controls playsinline preload="none" poster="assets/videos/poster-09.jpg"><source src="assets/videos/video-09.mp4" type="video/mp4">Seu navegador não reproduz este vídeo.</video>
+      </div>
+      <div class="center"><button class="soft-btn" onclick="showScreen('letter')">Ler uma cartinha <span>♡</span></button></div>
+    </section>
+
+    <section class="screen page" id="letter">
+      <div class="letter-wrap">
+        <span class="eyebrow">abre com carinho</span>
+        <div class="letter-icon">💌</div>
+        <h2>Uma cartinha<br><em>para você</em></h2>
+        <article class="letter">
+          <p>Meu amor,</p>
+          <p>Eu gosto da forma como os momentos mais simples ficam especiais quando estou com você. Uma conversa, uma risada, um abraço ou até uma foto aleatória acabam virando lembranças que quero guardar.</p>
+          <p>Obrigado por fazer parte da minha história e por construir tantos momentos comigo. Que a gente continue colecionando dias felizes, aprendendo um com o outro e escolhendo cuidar do que temos.</p>
+          <p>Você é muito importante para mim. ❤️</p>
+          <p class="signature">Com todo meu carinho, sempre. ♡</p>
+        </article>
+        <button class="primary-btn" onclick="showScreen('coupons')">Tem presentinho pra você →</button>
+      </div>
+    </section>
+
+    <section class="screen page" id="coupons">
+      <div class="section-heading">
+        <span class="eyebrow">presentinhos para resgatar</span>
+        <h2>Cupons de <em>carinho</em></h2>
+        <p>Cada cupom vale uma vez. Toque em resgatar quando quiser usar. ♡</p>
+      </div>
+      <div class="coupon-grid" id="couponGrid"></div>
+      <p class="date-hint" id="couponCount"></p>
+      <div class="center"><button class="soft-btn" onclick="showScreen('our-time')">Ver nosso tempo ♡</button></div>
+    </section>
+
+    <section class="screen page" id="our-time">
+      <div class="section-heading">
+        <span class="eyebrow">e a contagem continua...</span>
+        <h2>Desde que a nossa história <em>começou</em></h2>
+        <p>Cada segundo é mais um pedacinho da nossa história.</p>
+      </div>
+      <div class="counter" aria-live="polite">
+        <div><strong id="days">0</strong><span>dias</span></div>
+        <div><strong id="hours">00</strong><span>horas</span></div>
+        <div><strong id="minutes">00</strong><span>minutos</span></div>
+        <div><strong id="seconds">00</strong><span>segundos</span></div>
+      </div>
+      <p class="date-hint">A data está configurada no arquivo <code>js/script.js</code>.</p>
+      <div class="surprise-box">
+        <span class="eyebrow">psiu... tem mais uma coisinha</span>
+        <h3>Uma mensagem só sua</h3>
+        <p id="surpriseText">Clique no botão para descobrir uma mensagem. ♡</p>
+        <button class="primary-btn" onclick="showSurprise()">Revelar mensagem ✨</button>
+      </div>
+      <div class="center"><button class="soft-btn" onclick="showScreen('home')">Voltar ao começo ♡</button></div>
+    </section>
+  </main>
+
+  <footer>feito com carinho <span>♥</span> e muitas lembranças</footer>
+  <div class="lightbox" id="lightbox" aria-hidden="true"><button class="lb-close" aria-label="Fechar">×</button><img alt=""><p></p></div>
+  <script src="js/script.js"></script>
+</body>
+</html>

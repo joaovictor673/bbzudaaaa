@@ -1,0 +1,31 @@
+MEU LUGAR FAVORITO ♡
+
+COMO ABRIR
+1. Extraia a pasta do ZIP.
+2. Abra a pasta meu-lugar-favorito no VS Code.
+3. Instale a extensão Live Server.
+4. Clique com o botão direito em index.html e escolha "Open with Live Server".
+
+FOTOS E VÍDEOS
+As fotos enviadas foram colocadas em assets/fotos.
+Os vídeos enviados foram colocados em assets/videos.
+Você pode adicionar mais arquivos seguindo os mesmos caminhos e incluindo novas tags no index.html.
+
+DATA DO NAMORO
+Abra js/script.js e altere:
+const dataInicio = new Date("2026-04-05T00:00:00");
+Use o formato AAAA-MM-DDTHH:MM:SS.
+
+MÚSICA
+Crie ou copie um arquivo de áudio que você tenha direito de usar para:
+assets/musica/nossa-musica.mp3
+A versão atual não tem player de música, para manter o site leve e focado nas fotos e vídeos. Podemos adicionar o player depois.
+
+OBSERVAÇÃO
+O site funciona localmente. Para compartilhar por link, publique a pasta em um serviço de hospedagem estática, como GitHub Pages ou Netlify.
+
+
+CUPONS
+Em js/script.js, procure por "const cupons" para editar, apagar ou criar cupons.
+Para receber um aviso no WhatsApp quando ela resgatar, preencha "whatsappNumero" com seu número (ex.: "5511999999999").
+Os cupons resgatados ficam salvos no navegador dela.
